@@ -11,10 +11,28 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position:relative;
+  }
+.words{
+    flex-direction: column;
+}
+
+.image {
+    opacity: 1;
+    display: relative;
+    width: 40vh;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .leftside:hover .image {
+    opacity: 0.1;
+  }
+  .rightside:hover .image {
+    opacity: 0.1;
   }
 
-
-  
   /* Responsive layout - makes a one column-layout instead of two-column layout */
   @media (max-width: 800px) {
     .flex-container {
