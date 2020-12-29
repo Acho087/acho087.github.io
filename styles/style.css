@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    max-height: max-content;
+    background-color: rgb(15, 15, 15);
+    margin:0;
+
+}
+  
+  .flex-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
