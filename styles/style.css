@@ -5,21 +5,47 @@ html, body {
     margin:0;
 
 }
+
+.start{
+  top:5px;
+  left:5px;
+  position:absolute;
+  display:flex;
+  color: rgb(63, 63, 63);
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.end{
+  bottom:5px;
+  right:5px;
+  position:absolute; 
+  color: rgb(63, 63, 63);
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
   
   .flex-container {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position:relative;
+
   }
+
 .words{
     flex-direction: column;
 }
 
+.box {
+  position:relative;
+  height: 500;
+  width: 500;
+  margin:auto;
+}
+
 .image {
     opacity: 1;
-    display: relative;
     width: 40vh;
     height: auto;
     transition: .5s ease;
