@@ -52,12 +52,10 @@ html, body {
     backface-visibility: hidden;
   }
   
-  .leftside:hover .image {
+  .box:hover .image {
     opacity: 0.1;
   }
-  .rightside:hover .image {
-    opacity: 0.1;
-  }
+  
 
   /* Responsive layout - makes a one column-layout instead of two-column layout */
   @media (max-width: 800px) {
